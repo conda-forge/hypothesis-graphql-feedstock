@@ -1,4 +1,4 @@
-{% set name = "hypothesis-graphql" %}
+{% set name = "hypothesis_graphql" %}
 {% set version = "0.9.2" %}
 
 package:
