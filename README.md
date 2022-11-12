@@ -1,4 +1,4 @@
-About hypothesis-graphql
+About hypothesis_graphql
 ========================
 
 Home: https://github.com/Stranger6667/hypothesis-graphql
@@ -27,53 +27,53 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-hypothesis--graphql-green.svg)](https://anaconda.org/conda-forge/hypothesis-graphql) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/hypothesis-graphql.svg)](https://anaconda.org/conda-forge/hypothesis-graphql) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/hypothesis-graphql.svg)](https://anaconda.org/conda-forge/hypothesis-graphql) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/hypothesis-graphql.svg)](https://anaconda.org/conda-forge/hypothesis-graphql) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-hypothesis_graphql-green.svg)](https://anaconda.org/conda-forge/hypothesis_graphql) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/hypothesis_graphql.svg)](https://anaconda.org/conda-forge/hypothesis_graphql) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/hypothesis_graphql.svg)](https://anaconda.org/conda-forge/hypothesis_graphql) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/hypothesis_graphql.svg)](https://anaconda.org/conda-forge/hypothesis_graphql) |
 
-Installing hypothesis-graphql
+Installing hypothesis_graphql
 =============================
 
-Installing `hypothesis-graphql` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
+Installing `hypothesis_graphql` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
 
 ```
 conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `hypothesis-graphql` can be installed with `conda`:
+Once the `conda-forge` channel has been enabled, `hypothesis_graphql` can be installed with `conda`:
 
 ```
-conda install hypothesis-graphql
-```
-
-or with `mamba`:
-
-```
-mamba install hypothesis-graphql
-```
-
-It is possible to list all of the versions of `hypothesis-graphql` available on your platform with `conda`:
-
-```
-conda search hypothesis-graphql --channel conda-forge
+conda install hypothesis_graphql
 ```
 
 or with `mamba`:
 
 ```
-mamba search hypothesis-graphql --channel conda-forge
+mamba install hypothesis_graphql
+```
+
+It is possible to list all of the versions of `hypothesis_graphql` available on your platform with `conda`:
+
+```
+conda search hypothesis_graphql --channel conda-forge
+```
+
+or with `mamba`:
+
+```
+mamba search hypothesis_graphql --channel conda-forge
 ```
 
 Alternatively, `mamba repoquery` may provide more information:
 
 ```
 # Search all versions available on your platform:
-mamba repoquery search hypothesis-graphql --channel conda-forge
+mamba repoquery search hypothesis_graphql --channel conda-forge
 
-# List packages depending on `hypothesis-graphql`:
-mamba repoquery whoneeds hypothesis-graphql --channel conda-forge
+# List packages depending on `hypothesis_graphql`:
+mamba repoquery whoneeds hypothesis_graphql --channel conda-forge
 
-# List dependencies of `hypothesis-graphql`:
-mamba repoquery depends hypothesis-graphql --channel conda-forge
+# List dependencies of `hypothesis_graphql`:
+mamba repoquery depends hypothesis_graphql --channel conda-forge
 ```
 
 
@@ -118,17 +118,17 @@ Terminology
                   produce the finished article (built conda distributions)
 
 
-Updating hypothesis-graphql-feedstock
+Updating hypothesis_graphql-feedstock
 =====================================
 
-If you would like to improve the hypothesis-graphql recipe or build a new
+If you would like to improve the hypothesis_graphql recipe or build a new
 package version, please fork this repository and submit a PR. Upon submission,
 your changes will be run on the appropriate platforms to give the reviewer an
 opportunity to confirm that the changes result in a successful build. Once
 merged, the recipe will be re-built and uploaded automatically to the
 `conda-forge` channel, whereupon the built conda packages will be available for
 everybody to install and use from the `conda-forge` channel.
-Note that all branches in the conda-forge/hypothesis-graphql-feedstock are
+Note that all branches in the conda-forge/hypothesis_graphql-feedstock are
 immediately built and any created packages are uploaded, so PRs should be based
 on branches in forks and branches in the main repository should only be used to
 build distinct package versions.
