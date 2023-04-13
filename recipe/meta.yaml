@@ -16,22 +16,26 @@ build:
 
 requirements:
   host:
+    - hatchling
     - pip
-    - poetry >=0.12
     - python >=3.6,<4.0
   run:
-    - attrs >20.3.0,<=22.1.0
     - graphql-core >=3.1.0,<3.3.0
     - hypothesis >=5.8.0,<7.0
     - python >=3.6,<4.0
 
 test:
+  source_files:
+    - test
   imports:
     - hypothesis_graphql
   commands:
     - pip check
+    - pytest -vvv --capture=tee-sys test
   requires:
     - pip
+    - pytest >=6.2.0,<8
+    - pytest-xdist >=2.5,<3.0
 
 about:
   home: https://github.com/Stranger6667/hypothesis-graphql
