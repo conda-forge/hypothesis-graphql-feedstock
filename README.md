@@ -1,11 +1,11 @@
-About hypothesis-graphql
-========================
+About hypothesis-graphql-feedstock
+==================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/hypothesis-graphql-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/Stranger6667/hypothesis-graphql
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/hypothesis-graphql-feedstock/blob/main/LICENSE.txt)
 
 Summary: Hypothesis strategies for GraphQL queries and mutations
 
