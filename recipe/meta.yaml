@@ -1,5 +1,5 @@
 {% set name = "hypothesis-graphql" %}
-{% set version = "0.10.0" %}
+{% set version = "0.11.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/hypothesis_graphql-{{ version }}.tar.gz
-  sha256: 468d45f7ab32c2f4121799b2aa5892bd7cd9c8231ec2059dd6b34ed4b976698c
+  sha256: a1a1b693170591dd37d9b40a94e6f37181770c21cebad993e2e14e58ddfebaba
 
 build:
   noarch: python
