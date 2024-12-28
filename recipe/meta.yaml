@@ -6,23 +6,23 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/hypothesis_graphql-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/hypothesis_graphql-{{ version }}.tar.gz
   sha256: bd49ab6804a3f488ecab2e39c20dba6dfc2101525c6742f5831cfa9eff95285a
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
     - hatchling
     - pip
-    - python >=3.6,<4.0
+    - python {{ python_min }}
   run:
     - graphql-core >=3.1.0,<3.3.0
     - hypothesis >=5.8.0,<7.0
-    - python >=3.6,<4.0
+    - python >={{ python_min }},<4.0
 
 test:
   source_files:
@@ -36,6 +36,7 @@ test:
     - pip
     - pytest >=6.2.0,<8
     - pytest-xdist >=2.5,<3.0
+    - python {{ python_min }}
 
 about:
   home: https://github.com/Stranger6667/hypothesis-graphql
