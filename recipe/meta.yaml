@@ -21,7 +21,7 @@ requirements:
     - python {{ python_min }}
   run:
     - graphql-core >=3.1.0,<3.3.0
-    - hypothesis >=5.8.0,<7.0
+    - hypothesis >=6.84.3,<7.0
     - python >={{ python_min }},<4.0
 
 test:
