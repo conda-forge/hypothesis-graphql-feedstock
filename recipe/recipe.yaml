@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: hypothesis-graphql
-  version: "0.13.1"
+  version: "0.13.2"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/hypothesis_graphql-${{ version }}.tar.gz
-  sha256: b0b34f0accb87af40140f5dd54a784ab899401db37ba52fac39a4b37c24b2f6c
+  sha256: 6d6f8a7c28aa2aa78830713cb1fff49bd3ea0b0045a5490c216ead7dc02e0276
 
 build:
   number: 0
